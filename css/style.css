@@ -433,15 +433,52 @@ a {
     border: 1px solid #4578FB;
 }
 
-.rigth__content {
-}
 
 .rigth__content img {
     width: 453px;
     height: 100%;
 }
 /*------------------map------------------*/
-.map {
-    height: 100%;
+#map {
+    height: 500px;
     width: 100%;        
+}
+
+/*------------------footer------------------*/
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer__content {
+    display: flex;
+}
+.footer__nav {
+    display: flex;
+}
+.footer__nav h1 {
+    font-size: 20px;
+}
+
+.footer__nav-left {
+}
+
+
+.footer__nav-middle {
+}
+
+
+.footer__nav-right {
+}
+
+
+.footer__info {
+}
+.footer__info-location {
+    display: flex;
+}
+.footer__info-phone {
+    display: flex;
+}
+.footer__info-socials {
 }

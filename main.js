@@ -16,4 +16,15 @@ changeText()
 
 //MAP
 
+function initMap() {
+    let location = {
+        lat: 37.774929,
+        lng: -122.419418
+    };
+    let map = new google.maps.Map(document.querySelector('#map'), {
+        zoom: 6,
+        center: location
+    });
+};
 
+//
