@@ -12,7 +12,7 @@ function changeText() {
         }
     }, 2000)
 }
-changeText()
+// changeText()
 
 //MAP
 
