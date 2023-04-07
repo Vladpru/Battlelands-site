@@ -519,3 +519,10 @@ a {
     transform: scale(1.1);
     transition: .3s ease-in-out;
 }
+
+
+@media only screen and (max-width: 992px) {
+    .header__nav {
+        transform: translateY(-300px);
+    }
+}
