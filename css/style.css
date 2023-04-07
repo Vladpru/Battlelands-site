@@ -7,7 +7,6 @@
 }
 body {
     background-color: #181818;
-    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -121,7 +120,7 @@ a {
     transition: .3s ease-in-out;
 }
 
-.header__img-big {
+.header__img-big img{
     margin-top: 40px;
     width: 100%;
     display: flex;
@@ -441,7 +440,8 @@ a {
 /*------------------map------------------*/
 #map {
     height: 500px;
-    width: 100%;        
+    width: 100%;       
+    border-radius: 10px; 
 }
 
 /*------------------footer------------------*/
